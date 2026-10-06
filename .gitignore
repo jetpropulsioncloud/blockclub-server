@@ -1,0 +1,49 @@
+# Server runtime
+logs/
+crash-reports/
+cache/
+libraries/
+versions/
+world/
+world_nether/
+world_the_end/
+**/region/
+**/playerdata/
+**/stats/
+**/advancements/
+
+# Paper / plugin generated data
+.paper-remapped/
+plugins/.paper-remapped/
+plugins/bStats/
+plugins/**/cache/
+plugins/**/logs/
+
+# Backups
+backups/
+*.zip
+*.tar
+*.tar.gz
+
+# Secrets / credentials
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.jks
+secrets/
+credentials/
+
+# Local tooling
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Compiled plugin artifacts
+*.jar
+
+# Keep sanitized examples explicitly if needed
+!configs/**/*.example.yml
+!configs/**/*.example.yaml
