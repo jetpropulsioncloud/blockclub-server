@@ -15,10 +15,10 @@
 | GP threshold | Territory radius |
 |---:|---:|
 | 0 | 75 |
-| 10,000 | 90 |
-| 30,000 | 110 |
-| 70,000 | 125 |
-| 150,000 | 140 |
+| 5,000 | 90 |
+| 12,000 | 110 |
+| 25,000 | 125 |
+| 50,000 | 140 |
 
 - Frontier 1000×1000, camps at least 350 blocks apart, campaign 120h.
 - GDP decay 1% **daily** rather than hourly.
